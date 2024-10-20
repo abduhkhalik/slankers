@@ -9,7 +9,7 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 import { Context } from "../context/Context";
-import Slankers from "../../assets/Slankers.png";
+import Slankers from "../../assets/slankers.png";
 
 function NavList() {
   const { dispatch } = useContext(Context);
@@ -55,7 +55,7 @@ function NavList() {
           to="/posts"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
-          Table Data Pemilih Slankers
+          Table Data Pemilih Beramal
         </Link>
       </Typography>
       <Typography
@@ -100,7 +100,7 @@ export function NavbarSimple() {
             variant="h6"
             className="mr-4 cursor-pointer py-1.5"
           >
-            Slankers
+            Slankers Beramal
           </Typography>
 
           <img src={Slankers} className="w-10" />
