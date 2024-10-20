@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-slate-300
+}
+
+@media print {
+    @page {
+        size: auto;
+        margin: 20mm;
+
+    }
+
+    /* body * {
+        visibility: hidden;
+        margin: 0;
+        background-color: white;
+    }
+
+    #printTable,
+    #printTable * {
+        visibility: visible;
+    }
+
+    #printTable {
+        position: absolute;
+        top: 0;
+        right: 0;
+    } */
+}
